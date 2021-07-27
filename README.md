@@ -6,3 +6,6 @@
 * experiane.
 * skills.
 * goals.
+
+ this bage will develope day by day because I will add some feature to it and some information like :
+ what is my favorite anime and favorite films or food . 
