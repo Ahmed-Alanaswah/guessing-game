@@ -7,14 +7,14 @@ if(yourName == ''  ){
     yourName = prompt('please write name ');
 
 }else{
-
+    alert(`welcome ${yourName}`)
 };
 
-let yourAge = prompt('are old biger than 18 ?').toLowerCase();
+let yourAge = prompt('are old biger than 18 yes/no?').toLowerCase();
 if(yourAge == 'yes' ){
 
     //console.log('success enter');
-    alert('welcome ' +yourName  ); 
+    alert('your age biger than 18'); 
 
 }else{
     //console.log('sorry we need biger than 18');
@@ -22,47 +22,23 @@ if(yourAge == 'yes' ){
 }
 
 
-let askFeild = prompt('are you intersted with web development Yes/No?').toUpperCase();
-if(yourAge == 'yes' ){
+let askFeild = prompt('are you intersted with web development Yes/No?').toLowerCase();
+if(askFeild == 'yes' ){
 
     //console.log('welcome to our course');
-    alert('welcome to our course' ); 
+    alert('yes, i  am intersted with programming' ); 
 
 }else{
    //console.log('good luck');
-    alert('good luck');
+    alert('no, I am not intersted');
 }
-
-
-// switch (askFeild){
-//     case 'Yes':
-
-//     console.log('welcome to our course');
-
-//     alert('welcome to oure course');
-
-//     break;
-
-//     case 'No':
-
-//     console.log('good luck');
-
-//     alert('goog luck');
-    
-//     break;
-
-//     default:
-
-//     alert('thank for visit our web to more information contact with us')
-
-// }
 
 
 let askLanguage = prompt('Are You Speake English?').toLowerCase();
 if(askLanguage == 'yes' ){
 
     //console.log('good welcome ');
-    alert( 'good welocme' ); 
+    alert( 'good you are english speaker' ); 
 
 }else{
     //console.log('sorry we need english speaker');
@@ -84,7 +60,7 @@ let askCountryLive = prompt('Are You live in jordan ?').toLowerCase();
 if(askCountryLive == 'yes' ){
 
     //console.log('welcome with us ');
-    alert( 'welocme with us' ); 
+    alert( 'welocme with us in jordan' ); 
 
 }else{
     //console.log('sorry we need you in jordan ');
