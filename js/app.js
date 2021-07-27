@@ -49,7 +49,7 @@ let askCountry = prompt('Are You from jordan or syria or palestine?').toLowerCas
 if(askCountry == 'yes' ){
 
     //console.log('welcome with us ');
-    alert( 'welocme with us' ); 
+    alert( 'welocme with us from these country' ); 
 
 }else{
     //console.log('sorry we agree about joradnian,or syrian or palastenian  people ');
@@ -66,3 +66,5 @@ if(askCountryLive == 'yes' ){
     //console.log('sorry we need you in jordan ');
     alert('sorry we need need you in jordan')
 }
+
+
