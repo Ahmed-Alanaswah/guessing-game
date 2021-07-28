@@ -93,29 +93,38 @@ askCountry();
 
 
 function guesNum(){
-  let guessNumber = prompt('i  will ask you about my favourite  number and you have 4 opportunitites only ');
 
-  if (Number(guessNumber) === 20){
-    score++ ;
-    alert('true choice thank you my best number is '+ guessNumber + ` this is your attempt `);
+  for(let count = 0; count < 4; count++){
 
-  }else{
-    for(let count =1; count <= 3; count++){
-      if(Number(guessNumber) > 20){
+    let guessNumber=prompt('i  will ask you about my favourite  number and you have 4 opportunitites only ');
 
-        guessNumber = prompt('the number is higer try again ');
+    if (Number(guessNumber) === 20){
+      score++ ;
 
-      }else if (Number(guessNumber) < 20){
+      alert('true choice thank you my best number is '+ guessNumber + ' this is your attempt ');
+      break;
 
-        guessNumber = prompt('the number is lower try again ');
+    }else if(Number(guessNumber) > 20){
 
-      }
+      alert('the number is higer try again ');
+
+    }else {
+
+      alert('the number is lower try again ');
 
     }
-    alert('you are finished your attempts sorry');
+    if(count === 3){
+
+      alert('you are finished your attempts sorry');
+
+    }
+
   }
 
+
 }
+
+
 
 guesNum();
 
