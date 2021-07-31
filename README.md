@@ -13,3 +13,5 @@
 
 add some featuers in js:
 functions for all quistions
+
+final touch on css
